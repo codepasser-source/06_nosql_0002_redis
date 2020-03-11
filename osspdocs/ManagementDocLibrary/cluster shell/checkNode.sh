@@ -1,0 +1,1 @@
+../src/redis-trib.rb check 10.1.36.140:6379

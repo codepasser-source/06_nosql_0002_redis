@@ -1,0 +1,31 @@
+Windows
+Manual install (recommended)
+
+    Download Windows Installer from http://redisdesktop.com/download
+    Run downloaded installer
+
+Install via Chocolatey (outdated)
+
+choco install redis-desktop-manager
+
+Mac OS X
+Homebrew cask
+
+# Install Homebrew cask
+brew install caskroom/cask/brew-cask 
+
+# Install Redis Desktop Manager aka RDM
+brew cask install rdm 
+
+Manual install
+
+    Download dmg image from http://redisdesktop.com/download
+    Mount dmg image
+    Run rdm.app
+
+Ubuntu
+
+    Download Debian Package from http://redisdesktop.com/download
+    Install package: dpkg -i redis-desktop-manager_X.X.X_i386.deb
+    Run RedisDesktopManager : /usr/share/redis-desktop-manager/bin/rdm or redis-desktop-manager
+
